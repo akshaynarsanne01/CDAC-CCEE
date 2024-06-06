@@ -22,3 +22,16 @@ public class HelloWorld{
     }
 }
 ```
+Steps without IDE
+
+1. Create Folder (any name).
+2. Create 2 sub folders src and bin
+- src for java sourse files
+- bin is for .class files which are executables
+3. Write java file under src
+4. how to compile
+- open cmd and go to src 
+- javac -d ..\bin HelloWorld.java
+5. how to execute
+- cd ..\bin
+- java HelloWorld
